@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context="com.hiro.pchen.firebasechat.AccountModel.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="61dp"
+        android:src="@drawable/default_avatar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/settings_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/display_name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_below="@+id/settings_img"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/white"
+        android:text="@string/hello_nice_to_see_you"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/settings_img_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:text="@string/change_avatar"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="126dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/settings_status_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:text="@string/change_status"
+        android:layout_marginEnd="22dp"
+        android:layout_alignBaseline="@+id/settings_img_butt"
+        android:layout_alignBottom="@+id/settings_img_butt"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

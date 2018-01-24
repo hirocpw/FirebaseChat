@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FirebaseChat</string>
+    <string name="join_us">Join Us!</string>
+    <string name="welcome_to_firebasechat">Welcome to FirebaseChat!</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="show_all_user">Show All User</string>
+    <string name="settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="join_us_here">JOIN US HERE !</string>
+    <string name="sign_in_here">SIGN IN HERE !</string>
+    <string name="welcom_to_firebase_chat">Welcom to Firebase Chat !</string>
+    <string name="welcome_to_firebase_chat">Welcome to Firebase Chat !</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Go</string>
+    <string name="slide_01_title">Register Your Account</string>
+    <string name="slide_02_title">Login With Your Account</string>
+    <string name="slide_03_title">Now Go Chat !</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_nice_to_see_you">Hello, nice to see you</string>
+    <string name="change_avatar">Change Avatar</string>
+    <string name="change_status">Change status</string>
+    <string name="display_name">Display Name</string>
+    <string name="what_s_up">What\'s up?</string>
+    <string name="change_your_status">Change Your Status</string>
+    <string name="user_display_name">User Display Name</string>
+    <string name="defult_status">Defult status</string>
+    <string name="request_as_friend">Request As Friend</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context="com.hiro.pchen.firebasechat.AccountModel.StatusActivity">
+
+    <include
+        android:id="@+id/status_bar"
+        layout="@layout/bar_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/status_change_box"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/status_bar"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/what_s_up" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/status_comfirm_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_change_box"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@color/winered"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/change_your_status"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
